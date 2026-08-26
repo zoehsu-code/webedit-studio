@@ -1,0 +1,11 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  workerd: true
+packages:
+  - .
+
+onlyBuiltDependencies:
+  - sharp
+  - unrs-resolver
